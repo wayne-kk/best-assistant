@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "MoreAI",
+    "slug": "more-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.taskassistant.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "用于在对话中选择并发送图片",
+        "NSMicrophoneUsageDescription": "用于语音输入发送消息"
+      }
+    },
+    "android": {
+      "package": "com.taskassistant.app",
+      "permissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "scheme": "more-ai"
+  }
+}
